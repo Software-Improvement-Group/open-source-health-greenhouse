@@ -1,0 +1,21 @@
+apply plugin: "java"
+
+group = "sigdelivery"
+version = "1.0"
+
+java {
+    sourceCompatibility = "25"
+    targetCompatibility = "25"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "com.google.guava:guava:33.6.0-jre"
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,16 @@
+{
+    "name": "open-source-health-greenhouse",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {},
+    "dependencies": {
+        "awesomplete": "1.1.5",
+        "commonmark": "0.31.0",
+        "cytoscape": "3.29.2",
+        "cytoscape-canvas": "3.0.1",
+        "cytoscape-fcose": "2.2.0",
+        "echarts": "4.9.0",
+        "rxjs": "7.8.1",
+        "squarify": "1.1.0"
+    },
+}
